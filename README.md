@@ -16,5 +16,5 @@ Pictures are stretched accross the browser in its full width. Sure it is px:px b
 
 #### How to use it:
 Upload the "index.php", "style.css" and "img" folder to your hosting. Upload screens to the "img" folder.
-Open the url with index.php in browser.
+Open the url where the index.php lays in browser.
 Present.
