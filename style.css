@@ -1,0 +1,43 @@
+body,
+html,
+img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.switch {
+  position: fixed;
+  min-height: 1rem;
+  min-width: 1rem;
+  z-index: 100;
+  background: black;
+  top: 0;
+  right: 0;
+  color: #fff;
+}
+.switch a {
+  color: #fff;
+  padding: 0.3rem 0.5rem 0.5rem 0.5rem;
+  text-decoration: none;
+  display: inline-block;
+  display: block;
+  text-align: right;
+}
+.switch .inner {
+  padding: 0;
+  position: relative;
+  background-color: black;
+  display: none;
+}
+.switch .inner a {
+  text-align: left;
+}
+.switch .inner li {
+  list-style: none;
+}
+.switch .inner li:hover a {
+  text-decoration: underline;
+}
+.switch.open .inner {
+  display: inline-block;
+}
